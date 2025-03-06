@@ -10,6 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@shopify/restyle": "^2.4.4",
+    "NubbleApp": "file:",
     "react": "19.0.0",
     "react-native": "0.78.0"
   },
