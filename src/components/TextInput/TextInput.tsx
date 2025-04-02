@@ -1,13 +1,13 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import {
-    Pressable,
-    TextInput as RNTextInput,
-    TextInputProps as RNTextInputProps,
-    TextStyle,
+  Pressable,
+  TextInput as RNTextInput,
+  TextInputProps as RNTextInputProps,
+  TextStyle,
 } from 'react-native';
-import {useAppTheme} from '../../hooks/useAppTheme';
-import {Box, BoxProps} from '../Box/Box';
-import {$fontFamily, $fontSizes, Text} from '../Text/Text';
+import { useAppTheme } from '../../hooks/useAppTheme';
+import { Box, BoxProps } from '../Box/Box';
+import { $fontFamily, $fontSizes, Text } from '../Text/Text';
 
 export interface TextInputProps extends RNTextInputProps {
   label?: string;
@@ -27,7 +27,7 @@ export function TextInput({
   containerProps,
   ...rest
 }: TextInputProps) {
-  const {colors} = useAppTheme();
+  const { colors } = useAppTheme();
   const inputRef = useRef<RNTextInput>(null);
 
   const $textInputContainer: BoxProps = {
