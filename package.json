@@ -15,6 +15,7 @@
     "@shopify/restyle": "^2.4.4",
     "NubbleApp": "file:",
     "react": "19.0.0",
+    "react-hook-form": "^7.56.2",
     "react-native": "0.78.0",
     "react-native-safe-area-context": "^5.3.0",
     "react-native-svg": "^15.11.2"
